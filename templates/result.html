@@ -1,0 +1,20 @@
+{% extends 'base.html' %} {% block title %}Result - {% endblock %} {% block
+content %}
+<div class="result mt-12">
+  <p id="name" class="text-gray-700 font-bold">
+    Fullname: <span class="font-medium">{{ name }}</span>
+  </p>
+  <br />
+  <p id="country" class="text-gray-700 font-bold">
+    Nationality: <span class="font-medium">{{ country }}</span>
+  </p>
+  <br />
+  <p class="text-gray-700 font-bold">
+    Prediction:
+    <span class="text-blue-700 font-medium">{{ result }}</span>
+  </p>
+</div>
+<div class="my-12">
+  <a href="/" class="bg-black text-white py-2 px-4"> ← Go Back </a>
+</div>
+{% endblock %}

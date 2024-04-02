@@ -4,7 +4,9 @@ A quick demo MBTPI (Myers-Briggs Personality Type Indicator) prediction applicat
 
 ---
 
-Add your credentials in a .env file:
+## Quick Setup
+
+Add your credentials in a `.env` file:
 
 ```bash
 FLASK_DEBUG=1

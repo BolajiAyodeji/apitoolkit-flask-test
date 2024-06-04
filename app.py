@@ -32,6 +32,19 @@ def main():
     return render_template("main.html")
 
 
+# Create the /hello API route and return a text
+@app.route("/hello", methods=["GET"])
+def hello():
+    return "Hello world"
+
+
+# Create the /greet API route and return a text
+@app.route("/greet", defaults={"name": "APItoolkit user"})
+@app.route("/greet/<name>")
+def greet(name):
+    return "Hello, %s!" % name
+
+
 # Create the /predict API route
 @app.route("/predict", methods=["GET", "POST"])
 def predict():

@@ -3,5 +3,6 @@
     "activityBar.background": "#472235",
     "titleBar.activeBackground": "#632F4A",
     "titleBar.activeForeground": "#FCF9FA"
-  }
+  },
+  "cSpell.words": ["APITOOLKIT"]
 }
